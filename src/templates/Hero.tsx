@@ -16,7 +16,9 @@ const Hero = () => (
           </Link>
         </li>
         <li>
-          <Link href="/">Sign in</Link>
+          <Link href="/login" className="nav-link">
+            Sign in
+          </Link>
         </li>
       </NavbarTwoColumns>
     </Section>
