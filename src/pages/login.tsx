@@ -45,7 +45,7 @@ export default function LoginPage() {
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
           <input
             type="email"
-            className="block text-sm font-medium leading-6 text-gray-900"
+            className="border-solid-rounded block w-full rounded-md border-2 py-1.5 pl-4 text-sm font-medium leading-6 text-gray-900 focus:outline-teal-500"
             name="email"
             placeholder="Email"
             required
@@ -53,7 +53,7 @@ export default function LoginPage() {
         </div>
         <div className="flex items-center justify-between text-sm font-medium leading-6 text-gray-900">
           <input
-            className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+            className="block w-full rounded-md border-2 py-1.5 pl-4 text-gray-900 placeholder:text-gray-400 focus:outline-teal-500 sm:text-sm sm:leading-6"
             type="password"
             name="password"
             placeholder="Password"
