@@ -1,0 +1,35 @@
+/* src/components/SpinningWheel.css */
+.wheel {
+  width: 200px;
+  height: 200px;
+  border: 10px solid #3490dc;
+  border-radius: 50%;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  position: relative;
+}
+
+.wheel::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  background: #3490dc;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.spin {
+  animation: spin 3s ease-out;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1080deg); /* Adjust the degree for desired spin */
+  }
+}
