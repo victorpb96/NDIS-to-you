@@ -11,9 +11,7 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            Contact
-          </Link>
+          <Link href="/contact">Contact</Link>
         </li>
         <li>
           <Link href="/login" className="nav-link">

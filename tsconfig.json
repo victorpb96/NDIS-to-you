@@ -26,7 +26,7 @@
 
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "allowJs": false,
+    "allowJs": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
 
@@ -38,9 +38,9 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@/public/*": ["./public/*"]
-    }
+      "@/public/*": ["./public/*"],
+    },
   },
   "exclude": ["./out/**/*", "./node_modules/**/*"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
 }
